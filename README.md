@@ -3,10 +3,12 @@
  
  
 2 cazuri:
+
   o Valoarea nonce se initializeaza de la 3 000 000 000, caz in care trebuie
 sa gasiti o valoare nonce1 mai mica decat 3 100 000 000 pentru care se
 satisfice dificultatea, i.e., se gaseste o valoare hash care incepe cu
 numarul de zerouri cerut.
+
   o Valoarea nonce se initializeaza de la un numar aleator, dar mai mare
 decat valoarea nonce1 gasita anterior. Atentie! Nu valoarea imediat mai
 mare, i.e. nonce1 +1, ci un numar (pseudo-) aleator oarecare, cu conditia
@@ -16,10 +18,15 @@ sau pana cand ati gasit un nonce2 pentru care valoarea functiei hash
 satisfice dificultatea.
 
 Input:
+
 Version: 0x20400000
+
 Prev Block: 00000000000000000006a4a234288a44e715275f1775b77b2fddb6c02eb6b72f
+
 Merkle Root: 2dc60c563da5368e0668b81bc4d8dd369639a1134f68e425a9a74e428801e5b8
+
 Time: 0x5DB8AB5E
+
 Bits: 0x17148EDF
 
 
